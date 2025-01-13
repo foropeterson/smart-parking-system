@@ -1,0 +1,63 @@
+/* HomePage.css */
+
+.homepage {
+  font-family: Arial, sans-serif;
+}
+
+.hero-section {
+  position: relative;
+  height: 100vh;
+  background-image: url('https://cdn.pixabay.com/photo/2019/03/17/16/17/parking-4061323_1280.jpg'); /* Replace with your image URL */
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  color: white; /* To ensure text is visible on dark backgrounds */
+}
+
+.hero-content {
+  max-width: 600px;
+  padding: 20px;
+}
+
+.hero-content h1 {
+  font-size: 3em;
+  margin-bottom: 20px;
+}
+
+.hero-content p {
+  font-size: 1.2em;
+  margin-bottom: 30px;
+}
+
+.hero-buttons {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+
+.btn {
+  padding: 10px 20px;
+  border: none;
+  cursor: pointer;
+  text-decoration: none;
+  font-weight: bold;
+  border-radius: 5px;
+}
+
+.primary-btn {
+  background-color: #3498db; /* Blue color */
+  color: white;
+}
+
+.secondary-btn {
+  background-color: #2ecc71; /* Green color */
+  color: white;
+}
+
+.primary-btn:hover,
+.secondary-btn:hover {
+  opacity: 0.8;
+}
