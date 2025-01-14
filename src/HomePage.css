@@ -7,14 +7,14 @@
 .hero-section {
   position: relative;
   height: 100vh;
-  background-image: url('https://cdn.pixabay.com/photo/2019/03/17/16/17/parking-4061323_1280.jpg'); /* Replace with your image URL */
+  background-image: url('https://cdn.pixabay.com/photo/2019/03/17/16/17/parking-4061323_1280.jpg'); 
   background-size: cover;
   background-position: center;
   display: flex;
   align-items: center;
   justify-content: center;
   text-align: center;
-  color: white; /* To ensure text is visible on dark backgrounds */
+  color: white;
 }
 
 .hero-content {
@@ -48,12 +48,12 @@
 }
 
 .primary-btn {
-  background-color: #3498db; /* Blue color */
+  background-color: #3498db; 
   color: white;
 }
 
 .secondary-btn {
-  background-color: #2ecc71; /* Green color */
+  background-color: #2ecc71; 
   color: white;
 }
 
